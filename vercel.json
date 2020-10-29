@@ -1,12 +1,12 @@
 {
   "env": {
-    "PRISMIC_API_TOKEN_EX": "@PRISMIC_API_TOKEN_EX",
-    "PRISMIC_REPOSITORY_NAME_EX": "@PRISMIC_REPOSITORY_NAME_EX"
+    "PRISMIC_API_TOKEN_EX": "@prismic_api_token_ex",
+    "PRISMIC_REPOSITORY_NAME_EX": "@prismic_repository_name_ex"
   },
   "build": {
     "env": {
-      "PRISMIC_API_TOKEN_EX": "@PRISMIC_API_TOKEN_EX",
-      "PRISMIC_REPOSITORY_NAME_EX": "@PRISMIC_REPOSITORY_NAME_EX"
+      "PRISMIC_API_TOKEN_EX": "@prismic_api_token_ex",
+      "PRISMIC_REPOSITORY_NAME_EX": "@prismic_repository_name_ex"
     }
   }
 }
