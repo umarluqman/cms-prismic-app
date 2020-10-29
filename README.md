@@ -10,7 +10,7 @@ This example showcases Next.js's [Static Generation](https://nextjs.org/docs/bas
 
 Once you have access to [the environment variables you'll need](#step-5-set-up-environment-variables), deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?c=1&s=https://github.com/vercel/next.js/tree/canary/examples/cms-prismic&env=PRISMIC_API_TOKEN,PRISMIC_REPOSITORY_NAME&envDescription=Required%20to%20connect%20the%20app%20with%20Prismic&envLink=https://vercel.link/cms-prismic-env)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?c=1&s=https://github.com/vercel/next.js/tree/canary/examples/cms-prismic&env=PRISMIC_API_TOKEN_EX,PRISMIC_REPOSITORY_NAME_EX&envDescription=Required%20to%20connect%20the%20app%20with%20Prismic&envLink=https://vercel.link/cms-prismic-env)
 
 ### Related examples
 
@@ -110,15 +110,15 @@ cp .env.local.example .env.local
 
 Then set each variable on `.env.local`:
 
-- `PRISMIC_API_TOKEN` should be the **Permanent access token** you just created
-- `PRISMIC_REPOSITORY_NAME` is the name of your repository (the one in the URL)
+- `PRISMIC_API_TOKEN_EX` should be the **Permanent access token** you just created
+- `PRISMIC_REPOSITORY_NAME_EX` is the name of your repository (the one in the URL)
 - `PRISMIC_REPOSITORY_LOCALE` is the locale of your repository. Defaults to `en-us`
 
 Your `.env.local` file should look like this:
 
 ```bash
-PRISMIC_API_TOKEN=...
-PRISMIC_REPOSITORY_NAME=...
+PRISMIC_API_TOKEN_EX=...
+PRISMIC_REPOSITORY_NAME_EX=...
 PRISMIC_REPOSITORY_LOCALE=...
 ```
 
@@ -168,4 +168,4 @@ To deploy your local project to Vercel, push it to GitHub/GitLab/Bitbucket and [
 
 Alternatively, you can deploy using our template by clicking on the Deploy button below.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?c=1&s=https://github.com/vercel/next.js/tree/canary/examples/cms-prismic&env=PRISMIC_API_TOKEN,PRISMIC_REPOSITORY_NAME&envDescription=Required%20to%20connect%20the%20app%20with%20Prismic&envLink=https://vercel.link/cms-prismic-env)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?c=1&s=https://github.com/vercel/next.js/tree/canary/examples/cms-prismic&env=PRISMIC_API_TOKEN_EX,PRISMIC_REPOSITORY_NAME_EX&envDescription=Required%20to%20connect%20the%20app%20with%20Prismic&envLink=https://vercel.link/cms-prismic-env)
